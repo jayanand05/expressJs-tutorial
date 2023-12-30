@@ -3,7 +3,7 @@ const cookieParser = require("cookie-parser");
 const session = require("express-session");
 const passport = require("passport");
 // require("./strategies/local");
-require("./strategies/discord");
+require("./strategies/discord");frfrf
 
 const groceriesRoute = require("./routes/groceries");
 const marketRoute = require("./routes/markets");
